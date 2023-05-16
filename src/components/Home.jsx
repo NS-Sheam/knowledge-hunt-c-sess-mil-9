@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
             A reader lives a <br className='hidden md:block' /> thousand lives{' '}
-            <span className='inline-block text-blue-400'>before he dies</span>
+            <span className='inline-block text-orange-400'>before he dies</span>
           </h2>
           <p className='text-base text-gray-700 md:text-lg'>
             Books are a uniquely portable magic. Books serve to show a man that
@@ -24,15 +24,15 @@ const Home = () => {
           </p>
         </div>
         <div className='flex flex-col items-center md:flex-row'>
-          <Link to='/books' className='btn md:w-auto md:mr-4'>
-            <div className='inline-flex items-center justify-center w-full h-full'>
+          <Link to='/books' className='btn md:w-auto md:mr-4 '>
+            <div className='inline-flex items-center justify-center w-full h-full text-white'>
               <p className='mr-3'>Visit Store</p>
               <ShoppingCartIcon className='w-5 text-gray-100' />
             </div>
           </Link>
           <Link
             to='/about'
-            className='inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-blue-700'
+            className='inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-orange-700'
           >
             Learn More
           </Link>

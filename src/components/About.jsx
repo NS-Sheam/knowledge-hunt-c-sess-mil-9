@@ -10,7 +10,7 @@ const About = () => {
               <svg
                 viewBox='0 0 52 24'
                 fill='currentColor'
-                className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
+                className='absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-orange-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block'
               >
                 <defs>
                   <pattern

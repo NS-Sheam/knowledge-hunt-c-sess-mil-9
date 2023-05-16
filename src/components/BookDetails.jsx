@@ -42,7 +42,7 @@ const BookDetails = () => {
             <>
               <p className=' text-gray-500'>{desc.substring(0, 100)}.....</p>
               <span
-                className='cursor-pointer text-blue-600 '
+                className='cursor-pointer text-orange-500 '
                 onClick={() => setFold(!fold)}
               >
                 Read More
@@ -52,7 +52,7 @@ const BookDetails = () => {
             <>
               <p className=' text-gray-900'>{desc}.....</p>
               <span
-                className='cursor-pointer text-blue-600 '
+                className='cursor-pointer text-orange-500 '
                 onClick={() => setFold(!fold)}
               >
                 Read Less

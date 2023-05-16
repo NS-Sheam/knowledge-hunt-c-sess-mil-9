@@ -7,7 +7,7 @@
 }
 
 .btn{
-  @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700
+  @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md md:mb-0 bg-orange-400 hover:bg-orange-500
 }
 
 .badge{
@@ -15,9 +15,9 @@
 }
 
 .active{
-  @apply font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-400
+  @apply font-medium tracking-wide text-orange-500 transition-colors duration-200 hover:text-orange-400
 }
 
 .default{
-  @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400
+  @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-400
 }

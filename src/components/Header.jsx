@@ -13,7 +13,7 @@ const Header = () => {
       <div className='relative flex items-center justify-between'>
         {/* Logo Section */}
         <Link to='/' className='inline-flex items-center'>
-          <BookOpenIcon className='h-6 w-6 text-blue-500' />
+          <BookOpenIcon className='h-6 w-6 text-orange-500' />
           <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
             knowledge hunt
           </span>
@@ -63,7 +63,7 @@ const Header = () => {
                 <div className='flex items-center justify-between mb-4'>
                   <div>
                     <Link to='/' className='inline-flex items-center'>
-                      <BoltIcon className='h-6 w-6 text-blue-500' />
+                      <BoltIcon className='h-6 w-6 text-orange-500' />
                       <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
                         knowledge hunt
                       </span>
@@ -91,7 +91,7 @@ const Header = () => {
                     <li>
                       <Link
                         to='/books'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-400'
                       >
                         Books
                       </Link>
@@ -99,7 +99,7 @@ const Header = () => {
                     <li>
                       <Link
                         to='/about'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-orange-400'
                       >
                         About Us
                       </Link>
